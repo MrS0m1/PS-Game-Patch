@@ -6,7 +6,7 @@
         <ID>PPSA01341</ID>
         <ID>PPSA01342</ID>
     </TitleID>
-    <Metadata Title="Demon Souls"
+    <Metadata Title="Demons Souls"
               Name="Debug Menu"
               Author="illusion"
               PatchVer="1.0"
@@ -23,7 +23,7 @@
             <Line Type="bytes" Address="0x36630cae" Value="e90db451ff"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Demon Souls"
+    <Metadata Title="Demons Souls"
               Name="Debug Menu"
               Author="illusion"
               PatchVer="1.0"
@@ -36,6 +36,19 @@
             <Line Type="bytes" Address="0x58cfbc8a" Value="e9e4000000"/>
             <Line Type="bytes" Address="0x58cfbd73" Value="c60526058b0202"/>
             <Line Type="bytes" Address="0x58cfbd7a" Value="e9cffdffff"/>
+        </PatchList>
+    </Metadata>
+    <Metadata Title="Demons Souls"
+              Name="Cinematic Mode 60 FPS Unlock"
+              Author="MrS0m1"
+              PatchVer="1.0"
+              AppVer="01.007.000"
+              ImageBase="0x00400000"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes32" Address="0x028f7b98" Value="0x426fc28f"/>
+            <Line Type="bytes32" Address="0x028f7ed8" Value="0x00000000"/>
+            <Line Type="bytes" Address="0x00d11d93" Value="6a0159"/>
         </PatchList>
     </Metadata>
 </Patch>
